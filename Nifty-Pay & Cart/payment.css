@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+		*
+*{
+    padding:0; 
+    margin:0; 
+    box-sizing: border-box; 
+    
+}
+.banner {
+    background-color: #7c7c6b;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo-header img {
+    height: 100px;
+    width: auto;
+  }
+  
+  .menu ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+    position: relative;
+    right: 50px;
+    font-size: large;
+    top: 10px;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .cart {
+    position: relative;
+    right: 50px;
+    top: 5px;
+  }
+  
+  .cart i {
+    font-size: x-large;
+  }
+
+body{
+    background-color: #c2c2ac;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    width:100vw;
+    min-height:100vh;
+    background:#c2c2ac;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    padding: 30px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+.container{
+    background:#c2c2ac;
+    max-width: 900px;
+    min-height: 300px;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.box{
+    display: flex;
+    width: 1100px;
+    height: 500px;
+    overflow: hidden;
+    margin-top: 20px;
+    background: #fff;
+    transition: all .6s ease;
+    box-shadow: rgba(100, 100, 110, 0.2) 0 7px 29px 0;
+}
+.left{
+    flex-basis: auto;
+}
+.right{
+    flex-basis: auto;
+}
+form{
+    padding: 2rem;
+}
+
+h3{
+    margin-top: 1rem;
+    color: black;
+    text-align: center;
+}
+
+form input[type="text"]{
+    width: 100%;
+    padding: 0.5rem 0.7rem;
+    outline: none;
+}
+
+#zip{
+    display: flex;
+    margin-top: 0.5rem;
+}
+#zip select{
+    padding: 0.5rem 0.7rem;
+}
+#zip input[type="number"]{
+    padding: 0.5rem 0.7rem;
+    margin-left: 5px;
+
+}
+input[type="submit"]{
+    width: 90%;
+    padding: 0.7rem 1.5rem;
+    background: #34495e;
+    color: white;
+    border: none;
+    outline: none;
+    margin-top: 1rem;
+    cursor: pointer;
+    position: relative;
+    top: 25px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0062cc;
+}
+
+input[type="submit"]:hover{
+    background: #2c3e50;
+}
+
+
+@media only screen and (max-width:1000px){
+    .container{
+        flex-direction: column;
+    }
+}
+
+.footer body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.footer-container{
+    max-width: 1170px;
+    margin:auto;
+    text-align: center;  
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer{
+    background-color: #7c7c6b;
+    padding: 60px 50;
+}
+
+.footer-col{
+   width: 25%;
+   padding: 50px 1px;
+   position: relative;
+   height: 20px;
+   left: 400px;
+   
+}
+/* control the footer size */
+
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #ddd;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+/* THE UNDERLINED UNDER H4 */
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+/*responsive*/
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}

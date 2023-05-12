@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+		*
+body {
+    margin: 0px;    
+}
+*{
+    box-sizing: border-box; 
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.banner {
+    background-color: #7c7c6b;
+    color: #fff;
+    padding: 10px 0;
+    height: 160px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo-header img {
+    height: 100px;
+    width: auto;
+  }
+  
+  .menu ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+    position: relative;
+    right: 50px;
+    font-size: large;
+    top: 10px;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .cart {
+    position: relative;
+    right: 50px;
+    top: 5px;
+  }
+  
+  .cart i {
+    font-size: x-large;
+  }
+  
+  
+  .menu a:hover {
+    background-color: #fff;
+    color: #c2c2a3;
+  }
+
+#tileOne{
+    margin: auto;
+    margin-top: -40px;
+    width: 99.89%;
+    height: 700px;
+    background-image: url("backgro.jpeg");
+    background-size: cover;
+}
+
+.btns > button{
+    width: 200px;
+    margin-left: 800px;
+    margin-top: 610px;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    font-style: normal;
+}
+/* SHOP NOW BTN*/
+
+/*---------- featured products ----------*/
+
+.product-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+.product-heading strong{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: x-large;
+    cursor: pointer;
+    width: 300px;
+    text-align: center;
+}
+.product-heading p{
+    color: grey;
+    margin: 10px;
+    font-size: 1rem;
+}
+.product-container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.product-box{
+    display: flex;
+    flex-grow: 0.5;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 20px;
+}
+.product-img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    cursor: pointer;
+    position: relative;   
+}
+.product-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.product-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px 20px;
+    border-top: 4px solid white;
+}
+.p-name{
+    color: grey;
+}
+.p-price{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.product-box:hover{
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.7);
+}
+
+
+#tileThree{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    
+}
+.tileThreeHeading{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+.tileThreeImages{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+.tileThreeImages > div{
+    margin: 1.5%;
+    min-width: 30%;
+}
+.tileMen{
+    background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enIN/Images/updated_gender_men_dt_tcm209-636698.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+.tileMen > h3{
+    text-align: center;
+    margin-top: 34%;
+    color: white;
+}
+.tileWomen{
+    background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enIN/Images/updated_gender_women_dt_tcm209-636701.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+.tileWomen > h3{
+    text-align: center;
+    margin-top: 34%;
+    color: white;
+}
+.tileKids{
+    background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enIN/Images/updated_gender_kids_dt_tcm209-636695.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+.tileKids > h3{
+    text-align: center;
+    margin-top: 34%;
+    color: white;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+#footer {
+    background-color: #363738;
+    font-style: normal;
+    color: #C8CBCC;
+    height: 110px;
+    margin-top: 12px;
+    font-size: 12px;
+    border: 1px solid #363738;
+}
+
+#footer>p:first-child {
+    display: inline-block;
+    margin: 0% 0% 2% 16%;
+}
+
+#footer>p:nth-child(2) {
+    display: inline-block;
+    margin: 1% 0% 2% 45%;
+}
+
+#footer>p:last-child {
+    margin: 0% 0% 2% 16%;
+}
+
+@media(max-width: 600px){
+
+    #topHeader div{
+        color: black;
+    }
+
+    #rightSideBox{
+        width: 40%;
+        height: 80%;
+        margin-left: 30%;
+        margin-top: 2%;
+    }
+
+    #tileOne{
+        width: 600px;
+        height: 700px;
+        object-fit: cover;
+        background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enIN/Images/y-3_ss21_drop3_hp_mh_d_tcm209-782054.jpg");
+        background-size:cover;
+        background-position-x:87.5%;
+    }
+
+    #tileTwo{
+        width: 100%;
+        height: 0px; 
+    }
+    .tileTwoHeading{
+        color: white;
+    }
+    #tileTwoDetails > a{
+        color: white;
+        border: 0px solid white;   
+    }
+
+    #tileThree{
+        width: 350px;
+        height: 1200px;
+        margin: auto;
+    }
+    .tileThreeHeading{
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 1%;
+        margin-left: 15px;
+    }
+    .tileThreeImages{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .tileThreeImages h3{
+        margin-top: 40%;
+    }
+    .tileThreeImages > div{
+        margin: 1.5%;
+        margin-left: 10px;
+        min-width: 330px;
+    }
+}
+ 
+/* contact Section */
+.section-title {
+	font-size: 3rem;
+	font-weight: 300;
+	color: black;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	text-align: center;
+}
+.contact {
+	flex-direction: column;
+	max-width: 1200px;
+	margin: 0 auto;
+    width: 90%;
+}
+.contact-items {
+	width: 400px;
+}
+.contact-item {
+	width: 80%;
+	text-align: center;
+	border-radius: 10px;
+	padding: 20px;
+	margin: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 0px 0px 18px 0 #0000002c;
+	transition: 0.3s ease box-shadow;
+}
+.contact-item:hover {
+	box-shadow: 0px 0px 5px 0 #0000002c;
+}
+.icon {
+	width: 80px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.contact-info h1 {
+	font-size: 2.5rem;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+.contact-info h2 {
+	font-size: 1.3rem;
+	line-height: 2rem;
+	font-weight: 500;
+}
+/*End contact Section */
+
+/* contact  */
+#contact .contact {
+    flex-direction: column;
+    padding: 100px 0;
+    align-items: center;
+    justify-content: center;
+    min-height: 20vh;
+}
+#contact .contact-items {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 0;
+}
+#contact .contact-item {
+    width: 30%;
+    margin: 0;
+    flex-direction: row;
+}
+#contact .contact-item .icon {
+    height: 80%;
+    width: 80%;
+}
+#contact .contact-item .icon img {
+    object-fit: contain;
+}
+#contact .contact-item .contact-info {
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+}
+/* End contact  */
+
+
+    .footer body{
+        line-height: 1.5;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    
+    .footer-container{
+        max-width: 1170px;
+        margin:auto;
+        text-align: center;  
+    }
+    
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    ul{
+        list-style: none;
+    }
+    
+    .footer{
+        background-color: #7c7c6b;
+        padding: 70px 50;
+    }
+    
+    .footer-col{
+       width: 25%;
+       padding: 50px 1px;
+       position: relative;
+       height: 230px;
+       left: 100px;
+       
+    }
+/* control the footer size */
+
+    .footer-col h4{
+        font-size: 18px;
+        color: #ffffff;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+        font-weight: 500;
+        position: relative;
+    }
+    
+    .footer-col h4::before{
+        content: '';
+        position: absolute;
+        left:0;
+        bottom: -10px;
+        background-color: #ddd;
+        height: 2px;
+        box-sizing: border-box;
+        width: 50px;
+    }
+    /* THE UNDERLINED UNDER H4 */
+
+    .footer-col ul li:not(:last-child){
+        margin-bottom: 10px;
+    }
+    .footer-col ul li a{
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 300;
+        color: white;
+        display: block;
+        transition: all 0.3s ease;
+    }
+    
+    .footer-col ul li a:hover{
+        color: #ffffff;
+        padding-left: 8px;
+    }
+    
+    /*responsive*/
+    
+    @media(max-width: 767px){
+      .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    }
+    
+    @media(max-width: 574px){
+      .footer-col{
+        width: 100%;
+    }
+    }

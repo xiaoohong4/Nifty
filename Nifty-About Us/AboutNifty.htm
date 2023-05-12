@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--Author: KHOO JING WEN-->
+	<title>About Us | Nifty Sport Shoes</title>
+	<link rel="stylesheet"href="AboutNifty.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <div class="banner">
+		<div class="navbar">
+		  <div class="logo-header">
+			<img src="Logo.jpeg" alt="Nifty logo">
+		  </div>
+		  <div class="menu">
+        <ul>
+          <li><a href="../Nifty-New Arrivals/New Arrivals.html">New Releases</a></li>
+          <li><a href="../Nifty-Product/men/men basketball.html">Men</a></li>
+          <li><a href="../Nifty-Product/women/women basketball.html">Women</a></li>
+          <li><a href="../Nifty-Product/kids/kids basketball.html">Kids</a></li>
+          <li><a href="../Nifty-Promotion/promotion.html">Promotion</a></li>
+          <li><a href="../Nifty-About Us/AboutNifty.htm">About Us</a></li>
+          <li><a href="../Nifty-Register/Login.htm">Login</a></li>
+          <li><a href="../Nifty-Register/Register nifty.htm">Join Us</a></li>	
+          <a href="../Nifty-Pay & Cart/addcart.html" class="cart">
+          <i class="bx bx-cart-alt"></i>
+          </a>
+        </ul>
+		  </div>
+		</div>
+	</div>
+	  
+		<h1 style="text-align: center; font-size: 100px">ABOUT NIFTY</h1>
+	
+	<div style="display: flex; align-items: center; margin-top: 10px;">
+			<div style="flex-basis: 50%; padding: 50px;">
+				  <h2 style="font-size: 50px;">OUR STORY</h2>				
+				<div style="text-align: justify;">	
+					<p style="margin-top: 5px;">Nifty was founded in 2020 by Chee Cheng Hong, a passionate athlete and entrepreneur. </p>
+					<p style="margin-top: 10px;">With a vision to create high-quality, comfortable and affordable sports shoes for all, we have quickly gained popularity among fitness enthusiasts and athletes. </p>
+					  <div id="extra-content" style="display: none;">
+						  <p style="margin-top: 10px;">Nifty's focus on innovation, quality materials and customer satisfaction has enabled it to grow rapidly, with a loyal customer base across different countries. As a relatively new brand, we are continuously expanding its product line and exploring new markets to reach a wider audience.</p>
+					  </div>
+				<div style="margin-top: 20px;">
+            <a href="#" onclick="toggleContent(); return false;" id="toggle-link">Learn More</a>
+        </div>            
+	    </div>
+
+        <script>
+        function toggleContent() {
+          var extraContent = document.getElementById('extra-content');
+          var toggleLink = document.getElementById('toggle-link');
+          if (extraContent.style.display === 'none') {
+            extraContent.style.display = 'block';
+            toggleLink.textContent = 'Show Less';
+          } else {
+            extraContent.style.display = 'none';
+            toggleLink.textContent = 'Learn More';
+          }
+        }
+        </script>
+	</div>
+
+			<div style="margin-left:50px">
+				<img src="Logo.jpeg" alt="Nifty Sport Shoes Logo" style="width: 480px;height: 300px;">
+			</div>
+	</div>
+
+    <div style="display: flex; align-items: center;">
+        <div style="flex-basis: 50%;">
+          <img src="Mission.jpeg" alt="Nifty Sport Shoes Mission" class="Mission" style="width: 500px;height: 300px;">
+        </div>
+        <div style="flex-basis: 50%; padding: 50px;">
+          <h2 style="font-size: 50px;">OUR MISSION</h2>
+            <div style="text-align: justify;">
+            <p style="margin-top: 5px;">At Nifty, our mission is " To inspire and empower individuals to live an active and healthy lifestyle " through comfortable and high-quality sports shoes. Nifty is committed to delivering innovative and affordable products that meet the needs of athletes and fitness enthusiasts of all levels.</p>
+            </div>
+        </div>
+    </div>
+
+            <div style="display: flex; align-items: center;">
+              <div style="flex-basis: 50%; padding: 50px;">
+                <h2 style="font-size: 50px;">OUR SLOGAN</h2>
+                  <div style="text-align: justify;">
+                    <p style="margin-top: 10px;">"The perfect fit for your active lifestyle" is a slogan that can be used to communicate the value proposition of a Nifty Sport Shoes brand. It suggests that the brand's shoes are designed to fit well and cater to the needs of people who lead an active lifestyle, such as athletes, fitness enthusiasts, or simply people who enjoy being active.</p>
+                
+                    <div id="slogan-content" style="display: none;">
+                      <p style="margin-top: 10px;">The phrase "perfect fit" implies that the shoes are comfortable and well-fitted, providing the necessary support and cushioning to the feet during various physical activities. This is a critical aspect of any sport shoes brand, as ill-fitting shoes can cause discomfort, pain, and even injuries.</p>
+                      <p style="margin-top: 10px;">The words "active lifestyle" signify that the brand's shoes are not only designed for sports and workouts but also for everyday use by people who are constantly on the move. This includes activities like running errands, commuting to work, or traveling. The brand is positioning itself as a versatile and practical choice for people with busy lifestyles.</p>
+                      <p style="margin-top: 10px;">Overall, the slogan "the perfect fit for your active lifestyle" communicates the idea that the Nifty Sport Shoes brand offers high-quality shoes that are comfortable, well-fitted, and suitable for a wide range of physical activities and everyday use. It can help the brand differentiate itself from competitors and appeal to customers who prioritize comfort, style, and versatility in their choice of sport shoes.</p>
+                    </div>
+                  </div>
+
+                <div style="margin-top: 20px;">
+                <a href="javascript:void(0);" id="slogan-toggle" onclick="toggleSlogan()">Learn more</a>
+                </div>
+
+                <script>
+                  function toggleSlogan() {
+                    var content = document.getElementById("slogan-content");
+                    var toggleButton = document.getElementById("slogan-toggle");
+                    if (content.style.display === "none") {
+                      content.style.display = "block";
+                      toggleButton.innerHTML = "Show less"; 
+                    } else {
+                      content.style.display = "none";
+                      toggleButton.innerHTML = "Learn more";
+                    }
+                  }
+                </script>      
+              </div>
+            
+              <div style="flex-basis: 50%;">
+                <img src="Slogan.jpeg" alt="Nifty Sport Shoes Slogan" class="Slogan" style="width: 500px;height: 300px;">
+              </div>
+            </div>
+            
+        <div style="display: flex; align-items: center;">
+          <div style="flex-basis: 50%;">
+              <img src="Values.jpeg" alt="Nifty Sport Shoes Values" class="Values" style="width: 500px;height: 300px;">
+          </div>
+          <div style="flex-basis: 50%; padding: 50px;">
+                  <h2 style="font-size: 50px;">OUR VALUES</h2>
+                  <ul>
+                    <li style="margin-top: 5px;">1. Quality</li>
+                    <li style="margin-top: 10px;">2. Performance</li>
+                    <li style="margin-top: 10px;">3. Inclusivity</li>
+                    <li style="margin-top: 10px;">4. Sustainability</li>
+                  </ul>
+          </div>
+        </div>
+      
+          <footer class="footer body"style="margin-top: 50px;">
+              <div class="footer container">
+                  <div class="row">
+                      <div class="footer-col">
+                          <h4>company</h4>
+                          <ul>
+                            <li><a href="../Nifty-About Us/AboutNifty.htm">About us</a></li>
+                            <li><a href="../Nifty-Register/Term&Conditions.htm">Term & Condition</a></li>
+                            <li><a href="../Nifty-Register/Privacy Policy.htm">Privacy Policy</a></li>
+                          </ul>
+                      </div>
+                        
+                      <div class="footer-col">
+                          <h4>get help</h4>
+                          <ul>
+                            <li><a href="../Nifty-FAQ/FAQ.html">FAQ</a></li>
+                            <li><a href="#">Order History</a></li>
+                            <li><a href="#">payment options</a></li>
+                          </ul>
+                      </div>
+
+                      <div class="footer-col">
+                          <h4>online shop</h4>
+                          <ul>
+                            <li><a href="../Nifty-Product/men/men basketball.html">Products</a></li>
+                            <li><a href="../Nifty-Promotion/promotion.html">Promotion</a></li>
+                          </ul>
+                      </div>
+
+                        <div class="footer-col">
+                          <h4>follow us</h4>
+                          <div class="social-links">
+                            <a href="https://instagram.com/nifty_sport_shoes?igshid=ZDdkNTZiNTM=" target="_blank"><img src="Instagram.png" alt="Instagram Logo" width="30" height="30"></a>
+                            <a href="https://www.facebook.com/profile.php?id=100091740357040&mibextid=ZbWKwL" target="_blank"><img src="Facebook.png" alt="Facebook Logo" width="30" height="30"></a>
+                        </div>
+
+                  </div>
+                </div>
+              </div>
+          </footer>
+</body>
+</html>
+      
+      
